@@ -3,3 +3,4 @@ langchain_experimental
 utils
 openai
 langchain_openai
+tabulate
