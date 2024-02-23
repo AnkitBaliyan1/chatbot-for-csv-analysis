@@ -8,7 +8,7 @@ from langchain.agents.agent_types import AgentType
 def query_agent(data, query):
     df = pd.read_csv(data)
 
-    llm = OpenAI(temperature=0)
+    # llm = OpenAI(temperature=0)
 
     #agent = create_pandas_dataframe_agent(OpenAI(temperature=0), df, verbose=False)
 
