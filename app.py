@@ -6,7 +6,7 @@ st.title("Let's do some analysis on your CSV")
 st.header("Please upload the csv file here")
 
 # capture the csv file
-data = st.file_uploader("Upload the csv file", type="csv")
+data = st.sidebar.file_uploader("Upload the csv file", type="csv")
 
 query = st.text_area("Enter your query")
 button = st.button("Generate Response")
